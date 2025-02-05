@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uday Surothiya - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">Uday Surothiya</h1>
+        <p class="slide-in">Backend & Frontend Developer | Cloud Computing Enthusiast</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="section fade-in">
+        <h2>About Me</h2>
+        <p>I am a B.Tech Computer Science student at the University of Petroleum and Energy Studies, Dehradun. Passionate about cloud computing, backend development, and database management.</p>
+    </section>
+    
+    <section id="skills" class="section slide-in">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>C/C++, Python, HTML, JavaScript</li>
+            <li>CSS, React, Node.js</li>
+            <li>MongoDB, MySQL</li>
+            <li>AWS, Git, GitHub</li>
+        </ul>
+    </section>
+    
+    <section id="projects" class="section fade-in">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Music Player with DSA:</strong> Optimized search and playlist management using C++ and algorithms.</li>
+            <li><strong>Travel Website:</strong> Web app with user validation, MongoDB storage, and cookie management.</li>
+            <li><strong>Three-Tier Application on AWS:</strong> Deployed scalable web app with EC2, S3, RDS, IAM roles.</li>
+            <li><strong>Hospital Management System:</strong> Role-based access, MySQL database, and patient/staff management.</li>
+            <li><strong>Spotify Clone:</strong> Music player with JavaScript functionality.</li>
+            <li><strong>Simon Says Game:</strong> Interactive JavaScript-based memory game.</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="section slide-in">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:udaysurothiya@gmail.com">udaysurothiya@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/uday-surothiya-3048a5247" target="_blank">Uday Surothiya</a></p>
+        <p>GitHub: <a href="https://github.com/udyThe" target="_blank">github.com/udyThe</a></p>
+    </section>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll(".fade-in").forEach(el => {
+                el.style.opacity = 0;
+                setTimeout(() => {
+                    el.style.transition = "opacity 2s";
+                    el.style.opacity = 1;
+                }, 500);
+            });
+
+            document.querySelectorAll(".slide-in").forEach(el => {
+                el.style.transform = "translateX(-100%)";
+                setTimeout(() => {
+                    el.style.transition = "transform 1.5s ease-in-out";
+                    el.style.transform = "translateX(0)";
+                }, 700);
+            });
+        });
+    </script>
+</body>
+</html>
