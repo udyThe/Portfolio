@@ -1,0 +1,16 @@
+.scroll-top {
+  position: fixed;
+  bottom: 2em;
+  right: 1em;
+  background-color: transparent;
+}
+
+.scroll-top:hover {
+  color: teal;
+}
+
+@media (max-width: 768px) {
+  .scroll-top {
+    display: none;
+  }
+}

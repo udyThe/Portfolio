@@ -1,0 +1,61 @@
+.techsection {
+  width: 75%;
+  text-align: center;
+  background-color: var(--clr-bg);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  margin: auto;
+}
+
+.techsection > div {
+  height: 16vh;
+  text-align: center;
+  align-items: center;
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+  margin: 5%;
+  padding: 10px;
+  transition: all 0.5s ease 0s;
+  border: 2px solid var(--clr-primary);
+}
+.techsection > div:hover {
+  background-color: var(--clr-bg);
+  overflow: hidden;
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid var(--clr-primary);
+}
+
+.techsection > div > svg {
+  font-size: 8vh;
+  color: var(--clr-primary);
+  align-items: center;
+}
+.techsection > div > h5 {
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .techsection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .techsection > div {
+    margin: 2%;
+    padding: 5px;
+    height: 12vh;
+  }
+
+  .techsection > div > svg {
+    font-size: 4vh;
+    color: var(--clr-primary);
+    align-items: center;
+  }
+
+  .techsection > div > h5 {
+    font-size: smaller;
+  }
+}
