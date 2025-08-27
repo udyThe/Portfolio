@@ -5,7 +5,7 @@ import Brightness2Icon from "@mui/icons-material/Brightness2";
 import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import Viraj_Resume from "../../assets/resume/Viraj_Resume.pdf";
+import Uday_Resume from "../../assets/resume/Uday_Resume.pdf";
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
@@ -88,7 +88,7 @@ export const Navbar = () => {
         </li>
         <li className="nav__list-item">
           <a
-            href={Viraj_Resume}
+            href={Uday_Resume}
             onClick={toggleNavList}
             className="link link--nav"
             target="_blank"
