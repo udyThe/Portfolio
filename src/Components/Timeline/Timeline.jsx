@@ -50,22 +50,21 @@ export const Timeline = () => {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title" data-aos="fade-right">
-            Full Stack Developer
+            CSE Student
           </h3>
           <h4
             className="vertical-timeline-element-subtitle"
             data-aos="fade-right"
           >
-            Q3 Technologies, Gurugram, Haryana(Hybrid)
+            UPES, Dehradun
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
-            Currently, I play a pivotal role as the lead developer, actively
-            steering and managing client projects.
+            Currently, I am in my last year of my degree, constantly studying new technologies.
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          date={"Nov 2021 - July 2022"}
+          date={"June 2025 - July 2025"}
           contentStyle={{
             boxShadow: `var(--shadow)`,
             border: "3px solid var(--clr-primary)",
@@ -84,17 +83,50 @@ export const Timeline = () => {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title" data-aos="fade-right">
-            Full Stack Developer
+            Cloud Project Intern
           </h3>
           <h4
             className="vertical-timeline-element-subtitle"
             data-aos="fade-right"
           >
-            Masai School, Bengaluru, Karnataka(Remote)
+            IBM, Remote
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
-            Joined as a software trainee, Build web applications on react.js,
-            node.js, and practice data structures & algorithms.
+            Built a cloud based natural language processing project using AWS Services and Flask app.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date={"June 2025 - July 2025"}
+          contentStyle={{
+            boxShadow: `var(--shadow)`,
+            border: "3px solid var(--clr-primary)",
+            backgroundColor: `var(--clr-bg)`,
+            textAlign: "center",
+            color: `var(--clr-fg-alt)`,
+          }}
+          contentArrowStyle={{
+            borderRight: "16px solid  var(--clr-primary)",
+          }}
+          iconStyle={{
+            border: ` 3px solid var(--clr-primary)`,
+            backgroundColor: `var(--clr-bg)`,
+            color: `var(--clr-primary)`,
+          }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title" data-aos="fade-right">
+            Android Developer intern
+          </h3>
+          <h4
+            className="vertical-timeline-element-subtitle"
+            data-aos="fade-right"
+          >
+            DigiMind Technology Services Pvt. Ltd, Bhopal(M.P.)
+          </h4>
+          <p data-aos="fade-right" className="timelineDiscription">
+            Developed a role-based Flutter app using Clean Architecture with hybrid state management (Provider & GetX).
           </p>
         </VerticalTimelineElement>
 
@@ -119,52 +151,16 @@ export const Timeline = () => {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title" data-aos="fade-right">
-            Student [M.Sc. (Information Technology)]
+            Student [B.Tech. (Computer Science)]
           </h3>
           <h4
             className="vertical-timeline-element-subtitle"
             data-aos="fade-right"
           >
-            MPBOU University, Bhopal(M.P.)
+            UPES University, Dehradun (Uttrakhand)
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
-            Studied Information Technology which consists of all the subjects
-            accross Related Computer Science stream.
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date={""}
-          contentStyle={{
-            boxShadow: `var(--shadow)`,
-            border: "3px solid var(--clr-primary)",
-            backgroundColor: `var(--clr-bg)`,
-            textAlign: "center",
-            color: `var(--clr-fg-alt)`,
-          }}
-          contentArrowStyle={{
-            borderRight: "16px solid  var(--clr-primary)",
-          }}
-          iconStyle={{
-            border: ` 3px solid var(--clr-primary)`,
-            backgroundColor: `var(--clr-bg)`,
-            color: `var(--clr-primary)`,
-          }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title" data-aos="fade-right">
-            Student [B.Sc. (Computer Science)]
-          </h3>
-          <h4
-            className="vertical-timeline-element-subtitle"
-            data-aos="fade-right"
-          >
-            DAVV University, Indore(M.P.)
-          </h4>
-          <p data-aos="fade-right" className="timelineDiscription">
-            Studied Computer Science which consists of all the subjects accross
-            Related Computer Science stream.
+            Studied Computer Science with all related core subjects.
           </p>
         </VerticalTimelineElement>
 
@@ -195,10 +191,10 @@ export const Timeline = () => {
             className="vertical-timeline-element-subtitle"
             data-aos="fade-right"
           >
-            Govt. H. S. S. Raibidpura, Khargone(M.P.)
+            Birla public School, Pilani (Rajasthan)
           </h4>
           <p data-aos="fade-right" className="timelineDiscription">
-            Studied Mathematics, Physics and Chemistry.
+            Studied Mathematics, Physics, Chemistry and Computer Science.
           </p>
         </VerticalTimelineElement>
 

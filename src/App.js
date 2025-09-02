@@ -30,18 +30,18 @@ function App() {
         <section id="#about">
           <About />
         </section>
-        {/* <section id="#timeline">
+        <section id="#timeline">
           <Timeline />
-        </section> */}
+        </section>
         <section id="#skills">
           <Techstacks />
         </section>
-        {/* <section id="#projects">
+        <section id="#projects">
           <Projects />
         </section>
         <section id="#pocs">
           <Pocs />
-        </section> */}
+        </section>
         <section id="#contact">
           <Contact />
         </section>

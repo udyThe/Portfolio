@@ -1,21 +1,20 @@
 import React from "react";
 import "./Pocs.css";
 import {
-  SiHtml5,
-  SiExpress,
-  SiMongodb,
-  SiNodedotjs,
-  SiReact,
+  SiHtml5, SiPython, SiGit, SiFlutter, SiMongodb, SiDart, SiJson,
+  SiReact, SiMysql, SiTerraform, SiGithubactions, SiKubernetes, SiRedis, SiRabbitmq, SiJavascript
 } from "react-icons/si";
+import { FaAws, FaLinux, FaDocker, FaNodeJs } from 'react-icons/fa';
+import { VscGithub } from "react-icons/vsc";
 import { DiCss3 } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io";
-import project1 from "../../assets/project1.png";
-import project2 from "../../assets/project2.png";
-import project3 from "../../assets/project3.jpg";
-import project4 from "../../assets/project4.png";
-import project5 from "../../assets/project5.jpg";
-import project6 from "../../assets/project6.png";
-import project7 from "../../assets/project7.png";
+
+// Databases & Storage
+import project1 from "../../assets/aws3tier.png";
+import project2 from "../../assets/converhegubfuture.png";
+import project3 from "../../assets/ibm.png";
+import project4 from "../../assets/digimind.png";
+import project5 from "../../assets/spotify.png";
+import project6 from "../../assets/simonsays.png";
 
 export const Pocs = () => {
   return (
@@ -26,41 +25,24 @@ export const Pocs = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project4} alt="StoryBook" />
+                <img id="newsetimg" src={project1} alt="StoryBook" />
               </div>
             </div>
             <div className="project_information">
-              <h2>StoryBook App</h2>
+              <h2>Scalable 3-Tier Web Platform on AWS</h2>
               <p>
-                Presenting StoryBook, a unique storytelling app. Dive into a
-                community of creativity where users can read and write
-                captivating stories.
-                <br />
-                <br />
-                An exceptional StoryBook app project, meticulously crafted by me
-                in a single day.
+                Deployed a scalable 3-tier web platform on AWS using EC2 Auto Scaling, RDS read replicas, and S3 for static assets. Secured traffic with ALB and AWS WAF. Automated infrastructure via Terraform and CI/CD with GitHub Actions. Monitored with CloudWatch, achieving 99.9% uptime under simulated 5,000-user load with auto-scaling at 60% CPU.
               </p>
               <div>
-                <SiHtml5 />
-                <DiCss3 />
-                <IoLogoJavascript />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
-                <SiReact />
+                <FaAws />
+                <FaLinux />
+                <SiMysql />
+                <SiTerraform />
+                <SiGithubactions />
               </div>
               <div>
                 <a
-                  href="https://unique-story-book.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/rkvirajgupta/StoryBook"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -77,41 +59,28 @@ export const Pocs = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project5} alt="Chappan" />
+                <img id="newsetimg" src={project2} alt="Chappan" />
               </div>
             </div>
             <div className="project_information">
-              <h2>Chappan App</h2>
+              <h2>ConvergeHub - Extending the Collaboration Platform (Upcoming)</h2>
               <p>
-                It is famous food area in Indore city, where you can eat 56
-                types of delicious meals at one place on affordable prices with
-                great taste.
-                <br />
-                <br />
-                An exceptional Chappan app project, meticulously crafted by me
-                in a single day.
+                This project transforms ConvergeHub from a monolithic app into a scalable, containerized microservices platform. Services are orchestrated via Kubernetes (EKS) for high availability and auto-scaling. Redis and RabbitMQ enable low-latency, event-driven communication (~40% faster, projected). Real-time notifications support instant updates, with CI/CD pipelines and container testing ensuring quality in a distributed team.
               </p>
               <div>
-                <SiHtml5 />
-                <DiCss3 />
-                <IoLogoJavascript />
-                <SiNodedotjs />
-                <SiExpress />
+                <FaDocker />
+                <SiKubernetes />
+                <FaNodeJs />
                 <SiMongodb />
+                <SiRedis />
+                <SiRabbitmq />
+                <SiJavascript /> 
                 <SiReact />
+                <FaAws />
               </div>
               <div>
                 <a
-                  href="https://chappan-app.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/rkvirajgupta/Chhapan-app"
+                  href="https://github.com/udyThe/converge-hub"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -132,36 +101,20 @@ export const Pocs = () => {
               </div>
             </div>
             <div className="project_information">
-              <h2>Sephora Clone</h2>
+              <h2>Cloud Based NLP</h2>
               <p>
-                Sephora is a French multinational retailer of famous beauty
-                brand that has captured the hearts of millions of beauty
-                shoppers worldwide.
-                <br />
-                <br />A collaborative project, built in 5 days by a team of 6
-                developers.
+                Built a sentiment analysis web app using AWS Comprehend and SageMaker, integrated with a Flask backend on EC2. Automated CI deployments via GitHub and systemd on boot for seamless updates. Secured AWS access with IAM roles, Boto3, startup scripts, and environment-based credentials. Delivered a cloud-native app.
               </p>
               <div>
-                <SiHtml5 />
-                <DiCss3 />
-                <IoLogoJavascript />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
-                <SiReact />
+                <SiPython />
+                <FaAws />
+                <FaLinux />
+                <VscGithub />
+                <SiGit />
               </div>
               <div>
                 <a
-                  href="https://shephoraindia.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/khushi89012/SephoraClone"
+                  href="https://github.com/udyThe/IBM-sentiment"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -178,36 +131,24 @@ export const Pocs = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project6} alt="Weather" />
+                <img id="newsetimg" src={project4} alt="Weather" />
               </div>
             </div>
             <div className="project_information">
-              <h2>Weather App</h2>
+              <h2>Role-Based Flutter App with Clean Architecture</h2>
               <p>
-                Introducing a weather app. It's your go-to destination for
-                accurate weather forecasts, offering detailed information for
-                weather-tracking experience.
-                <br />
-                <br />A distinctive Weather app project, expertly developed by
-                me within a swift 6-hour timeframe.
+                Working on the development of a role-based Flutter application using Clean Architecture and hybrid state management with Provider and GetX. Key features include secure login, role-based dashboards, CRUD operations, and media uploads via REST APIs. The app follows a modular folder structure, ensuring scalability and maintainability, with secure API integration through Dio and token-based authentication.
               </p>
               <div>
-                <SiHtml5 />
-                <DiCss3 />
-                <IoLogoJavascript />
+                <SiFlutter />
+                <SiDart />
+                <SiJson />
+                <VscGithub />
+                <SiGit />
               </div>
               <div>
                 <a
-                  href="https://get-live-weather-details.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/rkvirajgupta/Weather-app"
+                  href="https://github.com/udyThe/digimind_android"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -224,30 +165,27 @@ export const Pocs = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project2} alt="Pluralsight" />
+                <img id="newsetimg" src={project5} alt="Pluralsight" />
               </div>
             </div>
             <div className="project_information">
-              <h2>Pluralsight Clone</h2>
+              <h2>Spotify Clone</h2>
               <p>
-                Pluralsight is an online learning and workforce development
-                platform that helps businesses and individuals adjust to
-                changing technology. <br />
-                <br />A collaborative project built by a team of 4, executed in
-                5 days.{" "}
+                Developed a front-end clone of the popular Spotify music player, built with
+                HTML, CSS, and JavaScript. Implemented core audio functionalities including
+                play, pause, and seek controls for an interactive music experience.
+                A curated selection of songs was hardcoded to demonstrate multimedia
+                management and player capabilities within the app.
               </p>
 
               <div>
                 <SiHtml5 />
                 <DiCss3 />
-                <IoLogoJavascript />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
+                <SiJavascript />
               </div>
               <div>
                 <a
-                  href="https://plurlsightclone.netlify.app"
+                  href="https://udythe.github.io/Spotify-clone/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -256,7 +194,7 @@ export const Pocs = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/khageswar9/Pluralsight-clone"
+                  href="https://github.com/udyThe/Spotify-clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -273,72 +211,25 @@ export const Pocs = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div id="newset">
-                <img id="newsetimg" src={project7} alt="Translator" />
+                <img id="newsetimg" src={project6} alt="Translator" />
               </div>
             </div>
             <div className="project_information">
-              <h2>Translator App</h2>
+              <h2>Simon Says Game</h2>
               <p>
-                Introducing a fresh app named "Translator App." It's a renowned
-                language hub, offering a variety of languages for translation.
-                <br />
-                <br />
-                An innovative Translator app project, meticulously crafted by me
-                in a mere 6 hours,
+                Built an interactive memory-based game where players must repeat a growing
+                sequence of colors. Implemented using JavaScript to generate and validate
+                sequences, providing engaging gameplay that tests focus and recall skills.
+                Styled with HTML and CSS for a vibrant user interface.
               </p>
               <div>
                 <SiHtml5 />
                 <DiCss3 />
-                <IoLogoJavascript />
-              </div>
-              <div>
-                {/* <a
-                  href="https://translate-language-app.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt onbt">
-                    See this Live
-                  </span>
-                </a> */}
-                <a
-                  href="https://github.com/rkvirajgupta/Translator-app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="projects_container" data-aos="fade-right">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div id="newset">
-                <img id="newsetimg" src={project1} alt="Bangood" />
-              </div>
-            </div>
-            <div className="project_information">
-              <h2>Bangood Clone</h2>
-              <p>
-                Banggood is a chinese E-commerce legitimate online shopping
-                website, offering a wide range of products at very cheap prices.
-                <br />
-                <br />A collaborative project, built in 6 days by a team of 5
-                developers.
-              </p>
-              <div>
-                <SiHtml5 />
-                <DiCss3 />
-                <IoLogoJavascript />
+                <SiJavascript />
               </div>
               <div>
                 <a
-                  href="https://bangood-clone.netlify.app"
+                  href="https://udythe.github.io/SimonSayss/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -347,7 +238,7 @@ export const Pocs = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Ankur310/Banggood-Site"
+                  href="https://github.com/udyThe/SimonSayss"
                   target="_blank"
                   rel="noreferrer"
                 >

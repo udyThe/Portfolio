@@ -7,8 +7,10 @@ export const Type = () => {
     <Typewriter
       options={{
         strings: [
+          "Devops enthusiast",
+          "Cloud Engineer",
           "Full Stack Developer",
-          "Chess Enthusiast",
+          "Badminton Enthusiast",
           "Creative Thinking",
           "Exploring New Places",
         ],

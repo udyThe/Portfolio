@@ -1,107 +1,113 @@
 import React from "react";
 import "./Projects.css";
-import { SiHtml5, SiReact, SiMui, SiPrettier } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { BsFiletypeScss } from "react-icons/bs";
-import { FaBitbucket, FaJira } from "react-icons/fa";
-import { GrGraphQl } from "react-icons/gr";
+import convergehubHome from "../../assets/convergehub-home.png";
+import devopsPipeline from "../../assets/devopsPipeline.png";
+import project6 from "../../assets/simonsays.png";
 import { DiCss3 } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io";
-import berthmaps from "../../assets/berthmaps.png";
-import sarma from "../../assets/sarma.png";
+import {SiHtml5} from "react-icons/si";
+import { FaReact, FaNodeJs, FaDocker, FaAws, FaJenkins, FaLinux } from "react-icons/fa";
+import {
+  SiTailwindcss, SiTerraform, SiPrometheus, SiGrafana,
+   SiMongodb, SiFirebase, 
+  SiPython,  SiJavascript, SiPostman,  SiGit 
+} from "react-icons/si";
 
 export const Projects = () => {
   return (
     <div className="section">
       <h2 className="section__title different">Projects</h2>
       <div className="client_allProjects">
-        <div className="client_projects_container" data-aos="fade-right">
-          <div className="client_project">
-            <div className="client_project_videocontainer">
-              <div id="newset">
-                <img id="newsetimg" src={berthmaps} alt="Berth Maps" />
-              </div>
-            </div>
-            <div className="client_project_information">
-              <h2>Berth Maps</h2>
-              <p>
-                Client is leading private sector provider of public transport.
-                Berth Maps is a schematic view of real-time railway berth
-                movements by GPS, TD and TRUST. Berthmaps provides a platform to
-                manage trains, berths, crew, stations, etc. Using Berthmaps, you
-                can view running trains in real-time and replay mode.
-              </p>
-              <div>
-                <div>
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <IoLogoJavascript />
-                  <SiReact />
-                  <FaBitbucket />
-                  <GrGraphQl />
-                  <SiMui />
-                  <SiPrettier />
+        <div className="projects_container" data-aos="fade-right">
+                  <div className="project">
+                    <div className="project_videocontainer">
+                      <div id="newset">
+                        <img id="newsetimg" src={convergehubHome} alt="Translator" />
+                      </div>
+                    </div>
+                    <div className="project_information">
+                      <h2>ConvergeHub</h2>
+                      <p>
+                        ConvergeHub is a cloud-native collaborative platform tailored for modern remote teams. It integrates real-time messaging, live document editing, Kanban boards, task management, and secure user authentication. Built on the MERN stack with WebSockets and Firebase, it ensures seamless communication, scalability, and data security. 
+                      </p>
+                      <div>
+                        <FaReact />
+                  <SiJavascript />
+                  <SiTailwindcss />
+                  <FaNodeJs />
+                  <SiMongodb />
+                  <SiFirebase />
+                  <SiPostman />
                   <VscGithub />
-                  <FaJira />
-                  <BsFiletypeScss />
+                  <SiGit />
+                      </div>
+                      <div>
+                        <a
+                          href="https://convergehub.netlify.app/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <span type="button" className="btns onbt onbt">
+                            See this Live
+                          </span>
+                        </a>
+                        <a
+                          href="https://github.com/udyThe/converge-hub"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <span type="button" className="btns onbt">
+                            View Code
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                {/* <a
-                  href="https://www.mistral-data.com/product/berth-maps-tbc/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt">
-                    View Description
-                  </span>
-                </a> */}
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div className="client_projects_container" data-aos="fade-right">
-          <div className="client_project">
-            <div className="client_project_videocontainer">
-              <div id="newset">
-                <img id="newsetimg" src={sarma} alt="Sarma" />
-              </div>
-            </div>
-            <div className="client_project_information">
-              <h2>Sarma</h2>
-              <p>
-                Client is leading private sector provider of public transport.
-                Sarma is the stock resource allocation system. Using Sarma,
-                allocations can be updated quickly via the web-based user
-                interface with changes validated and immediately pushed out in
-                real- time to control centers, staff, and other systems.
-              </p>
-              <div>
-                <div>
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <IoLogoJavascript />
-                  <SiReact />
-                  <FaBitbucket />
-                  <GrGraphQl />
-                  <SiMui />
-                  <SiPrettier />
+
+
+
+
+                <div className="projects_container" data-aos="fade-right">
+                  <div className="project">
+                    <div className="project_videocontainer">
+                      <div id="newset">
+                        <img id="newsetimg" src={devopsPipeline} alt="Translator" />
+                      </div>
+                    </div>
+                    <div className="project_information">
+                      <h2>AWS DevOps Pipeline </h2>
+                      <p>
+                        This project showcases a full DevOps pipeline on AWS using Infrastructure as Code and CI/CD automation. A Dockerized Flask app was deployed on EC2 via Terraform, with Jenkins handling automated deployments from GitHub. CloudWatch monitored system metrics with alarms for CPU and memory. Prometheus and Grafana provided advanced observability through real-time dashboards and issue detection.
+                      </p>
+                      <div>
+                        <SiPython />
+                  <SiTerraform />
+                  <FaJenkins />
                   <VscGithub />
-                  <FaJira />
-                  <BsFiletypeScss />
+                  <FaAws />
+                  <FaDocker />
+                  <FaLinux /> 
+                  <SiPrometheus />
+                  <SiGrafana />
+                      </div>
+                      <div>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <span type="button" className="btns onbt">
+                            View Code
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                {/* <a
-                  href="https://www.mistral-data.com/product/sarma/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btns onbt">
-                    View Description
-                  </span>
-                </a> */}
-              </div>
-            </div>
-          </div>
-        </div>
+
+       
       </div>
     </div>
   );

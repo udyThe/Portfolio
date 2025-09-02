@@ -59,3 +59,26 @@
     font-size: smaller;
   }
 }
+
+
+.tech-category {
+  margin-bottom: 2rem;
+}
+
+.category-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-color, #333);
+}
+
+.category-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-color, #333);
+  text-align: center;   /* ✅ This centers just the category title */
+}
+.techsection{
+  margin: auto;
+}
