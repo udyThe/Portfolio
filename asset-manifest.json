@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.76a6bcd7.css",
-    "main.js": "/Portfolio/static/js/main.eef97868.js",
+    "main.css": "/Portfolio/static/css/main.f583107e.css",
+    "main.js": "/Portfolio/static/js/main.fc0b0919.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
-    "static/media/profile4.jpg": "/Portfolio/static/media/profile4.e1031baf619f0d02983b.jpg",
-    "static/media/project6.png": "/Portfolio/static/media/project6.6bf9142d3befeb5e2897.png",
-    "static/media/sarma.png": "/Portfolio/static/media/sarma.b6051621f25beb21aadb.png",
+    "static/media/profile4.jpg": "/Portfolio/static/media/profile4.545b33124cb941aae72a.jpg",
+    "static/media/convergehub-home.png": "/Portfolio/static/media/convergehub-home.14f5b169f7478e69d651.png",
+    "static/media/converhegubfuture.png": "/Portfolio/static/media/converhegubfuture.f8c2b749553ea6962ae7.png",
+    "static/media/spotify.png": "/Portfolio/static/media/spotify.5465cf908e709a2059aa.png",
+    "static/media/devopsPipeline.png": "/Portfolio/static/media/devopsPipeline.074eeb6caa696eec7b02.png",
     "static/media/Uday_Resume.pdf": "/Portfolio/static/media/Uday_Resume.3556a3d7fa0237d0794e.pdf",
-    "static/media/project5.jpg": "/Portfolio/static/media/project5.ff0fa8e1a943ea42fa43.jpg",
-    "static/media/project1.png": "/Portfolio/static/media/project1.dc795513053458a208e8.png",
-    "static/media/project2.png": "/Portfolio/static/media/project2.b993d323fd9798c7c1ba.png",
-    "static/media/project4.png": "/Portfolio/static/media/project4.c67cf275f74cd29022b6.png",
-    "static/media/berthmaps.png": "/Portfolio/static/media/berthmaps.3a2c0f30cc222c41e241.png",
-    "static/media/project7.png": "/Portfolio/static/media/project7.3479cbb3ee9e445db336.png",
-    "static/media/project3.jpg": "/Portfolio/static/media/project3.73c3e0518b57cf6b3e1e.jpg",
+    "static/media/ibm.png": "/Portfolio/static/media/ibm.0651a830763c109282d6.png",
+    "static/media/aws3tier.png": "/Portfolio/static/media/aws3tier.b889d4bd452fd8601150.png",
+    "static/media/simonsays.png": "/Portfolio/static/media/simonsays.48169c36bcac01190136.png",
+    "static/media/digimind.png": "/Portfolio/static/media/digimind.1bca4928b585f1d1c493.png",
     "index.html": "/Portfolio/index.html",
-    "main.76a6bcd7.css.map": "/Portfolio/static/css/main.76a6bcd7.css.map",
-    "main.eef97868.js.map": "/Portfolio/static/js/main.eef97868.js.map",
+    "main.f583107e.css.map": "/Portfolio/static/css/main.f583107e.css.map",
+    "main.fc0b0919.js.map": "/Portfolio/static/js/main.fc0b0919.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76a6bcd7.css",
-    "static/js/main.eef97868.js"
+    "static/css/main.f583107e.css",
+    "static/js/main.fc0b0919.js"
   ]
 }
