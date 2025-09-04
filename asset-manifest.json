@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f583107e.css",
-    "main.js": "/Portfolio/static/js/main.fc0b0919.js",
+    "main.js": "/Portfolio/static/js/main.c7a9ccf4.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/profile4.jpg": "/Portfolio/static/media/profile4.545b33124cb941aae72a.jpg",
     "static/media/convergehub-home.png": "/Portfolio/static/media/convergehub-home.14f5b169f7478e69d651.png",
@@ -15,11 +15,11 @@
     "static/media/digimind.png": "/Portfolio/static/media/digimind.1bca4928b585f1d1c493.png",
     "index.html": "/Portfolio/index.html",
     "main.f583107e.css.map": "/Portfolio/static/css/main.f583107e.css.map",
-    "main.fc0b0919.js.map": "/Portfolio/static/js/main.fc0b0919.js.map",
+    "main.c7a9ccf4.js.map": "/Portfolio/static/js/main.c7a9ccf4.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f583107e.css",
-    "static/js/main.fc0b0919.js"
+    "static/js/main.c7a9ccf4.js"
   ]
 }
