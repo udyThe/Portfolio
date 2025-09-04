@@ -19,7 +19,7 @@ import project6 from "../../assets/simonsays.png";
 export const Pocs = () => {
   return (
     <div className="section">
-      <h2 className="section__title different">POC's</h2>
+      {/* <h2 className="section__title different">POC's</h2> */}
       <div className="allProjects">
         <div className="projects_container" data-aos="fade-right">
           <div className="project">

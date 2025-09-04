@@ -68,7 +68,7 @@ export const Navbar = () => {
             Projects
           </a>
         </li>
-        <li className="nav__list-item">
+        {/* <li className="nav__list-item">
           <a
             href="#pocs"
             onClick={() => toggleNavList("#pocs")}
@@ -76,7 +76,7 @@ export const Navbar = () => {
           >
             POC's
           </a>
-        </li>
+        </li> */}
         <li className="nav__list-item">
           <a
             href="#contact"
